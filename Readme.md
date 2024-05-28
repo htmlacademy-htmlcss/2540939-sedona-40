@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Timofey Trogovitsky](https://up.htmlacademy.ru/htmlcss/40/user/2540939).
-* Наставник: `Неизвестно`.
+* Наставник: [Валера Хаслер](https://htmlacademy.ru/profile/id224163).
 
 ---
 
