@@ -214,6 +214,92 @@
       </footer>
     </div>
 
+          <div class="modal-container-search-hotels close-modal-search-hotels">
+        <div class="modal">
+          <section class="modal-search">
+            <h2 class="modal-search-title">Поиск гостиницы в Седоне</h2>
+            <form class="search-hotels-form" action="https://echo.htmlacademy.ru" method="GET">
+              <label class="date-parameter check-in-message">
+                <span class="placeholder-text">Дата Заезда:</span>
+                <input class="input-text-field check-in-date" type="text" name="check-in-date"
+                  placeholder="Дата заселения" value="27 апреля 2020">
+              </label>
+              <label class="date-parameter check-out-message">
+                <span class="placeholder-text">Дата Выезда:</span>
+                <input class="input-text-field check-out-date" type="text" name="check-out-date"
+                  placeholder="Дата выселения" value="1 сентября 2023">
+              </label>
+
+              <div class="people-count-hotel-search">
+                <div class="count-parameter adults">
+                  <label class="placeholder-text" for="adults-count">Взрослые:</label>
+                  <button class="button-minus-one" type="button">
+                    <span class="visually-hidden">Минус 1</span>
+                    <svg class="minus-icon" aria-hidden="true" focusable="false" width="20" height="20"
+                      viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 9V11H17V9H3Z" />
+                    </svg>
+                  </button>
+                  <input id="adults-count" class="input-text-field count-input" type="text" name="adults-count"
+                    placeholder="1" value="2">
+                  <button class="button-plus-one" type="button">
+                    <span class="visually-hidden">Плюс 1</span>
+                    <svg class="plus-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                      width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="count-parameter children">
+                  <div class="placeholder-text">
+                    <label for="children-count">Дети:</label>
+                    <span class="tooltip">
+                      <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label-date">
+                        <svg class="tooltip-icon" width="26" height="26" viewBox="0 0 26 26"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="13" cy="13" r="13" />
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7H14V9H12V7ZM14 19H12V10H14V19Z"
+                            fill="white" />
+                        </svg>
+                      </button>
+                      <span class="tooltip-text" role="tooltip" id="tooltip-label-date">Укажите количество детей,
+                        которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются
+                        бесплатно.</span>
+                    </span>
+                  </div>
+                  <button class="button-minus-one" type="button">
+                    <span class="visually-hidden">Минус 1</span>
+                    <svg class="minus-icon" aria-hidden="true" focusable="false" width="20" height="20"
+                      viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 9V11H17V9H3Z" />
+                    </svg>
+                  </button>
+                  <input id="children-count" class="input-text-field count-input" type="text" name="children-count"
+                    placeholder="1" value="2">
+                  <button class="button-plus-one" type="button">
+                    <span class="visually-hidden">Плюс 1</span>
+                    <svg class="plus-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                      width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <button class="button btn-blue" type="submit">Найти</button>
+            </form>
+          </section>
+
+          <button class="modal-close-button">
+            <span class="visually-hidden">Закрыть окно</span>
+            <svg class="close-icon" aria-hidden="true" focusable="false" width="15" height="15" viewBox="0 0 15 15">
+              <path
+                d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
 
 </html>
