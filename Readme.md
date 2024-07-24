@@ -2,7 +2,7 @@
 
 * Студент: [Timofey Trogovitsky](https://up.htmlacademy.ru/htmlcss/40/user/2540939).
 * Наставник: [Валера Хаслер](https://htmlacademy.ru/profile/id224163).
-* Сайт: [Моя Седона](https://github.com/Trogovitsky/2540939-sedona-40).
+* Сайт: [Моя Седона](https://trogovitsky.github.io/2540939-sedona-40/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
