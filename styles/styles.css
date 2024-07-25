@@ -568,8 +568,6 @@ body {
 .input:focus {
   background-color: var(--form-element-2-hover);
   outline: 3px solid var(--form-element-2-focus-border);
-  /* border-radius: 4px; */
-  /* box-shadow */
 }
 
 .input:placeholder-shown {
@@ -664,16 +662,6 @@ body {
   color: inherit;
 }
 
-/*
-.navigation-link-current{
-  --thickness: 2px;
-  text-decoration: underline;
-  text-underline-offset: calc(var(--padding) + var(--thickness));
-  text-decoration-color: var(--text-link-underline);
-  text-decoration-thickness: var(--thickness);
-  text-underline-position: under;
-}*/
-
 .navigation-link-current::after {
   content: "";
   display: block;
@@ -696,16 +684,6 @@ body {
   height: calc(40px + 1em);
   min-width: calc(2* var(--padding) + 21px);
 }
-
-/*
-.navigation-icon::before {
-  display: block;
-  min-width: 20px;
-  min-height: 20px;
-  content: "";
-  background-position: center;
-  background-repeat: no-repeat;
-} */
 
 .navigation-icon-liked {
   position: relative;
@@ -855,7 +833,6 @@ body {
 }
 
 .features-item-title::after {
-  /* TODO положение и фон линии */
   content: "";
   display: block;
   position: absolute;
@@ -940,7 +917,7 @@ body {
   background-size: cover;
 }
 
-.subscribe-header {
+.subscribe-footer {
   margin-bottom: 54px;
 }
 
@@ -1019,29 +996,6 @@ body {
   display: block;
 
 }
-
-
-/*
-.footer-social-link::before {
-  display: block;
-  width: 47px;
-  height: 40px;
-  content: "";
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.footer-social-link-vk::before {
-  background-image: url("../icons/social-vk.svg");
-}
-
-.footer-social-link-tg::before {
-  background-image: url("../icons/social-tg.svg");
-}
-
-.footer-social-link-yt::before {
-  background-image: url("../icons/social-yt.svg");
-} */
 
 .footer-phone {
   text-align: center;
@@ -1170,9 +1124,7 @@ body {
 }
 
 .control-input:focus {
-  /* todo контур */
   outline: 3px solid var(--form-element-2-focus-border);
-  /* outline-offset: 3px; */
 }
 
 .control-input[type="radio"]:focus {
@@ -1216,8 +1168,6 @@ body {
   margin-left: auto;
   flex-basis: 200px;
 }
-
-.catalog-filters-form-group-inner-wrap {}
 
 .catalog-filters-form-group-price-inner-wrap {
   display: flex;
@@ -1410,7 +1360,6 @@ body {
     "stars rating"
   ;
   gap: 16px 20px;
-  /* border: 1px solid var(--card-border); */
   box-shadow: 0 0 0 1px var(--card-border);
   border-radius: 4px;
   color: var(--text-basic);
@@ -1456,7 +1405,6 @@ body {
 
 .hotel-stars {
   margin: auto 0;
-  /* order: 1; */
   grid-area: stars;
 }
 
